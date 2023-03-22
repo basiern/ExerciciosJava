@@ -12,7 +12,7 @@ public class Fatorial {
 
         System.out.print(fatorial+"! = ");
 
-        for (int i = fatorial; i >= 1 ; i = i -1 ){
+        for (int i = fatorial; i >= 1 ; i = i -1){
             multiplicacao = multiplicacao * i;
         }
         System.out.println(multiplicacao);
