@@ -11,11 +11,11 @@ _Estudos realizados por @basiern através do curso de formaçao de Java oferecid
 
 🔸 A estrutura em java é: 
 
-_if (condição){_
-    _Instruções caso a condição seja positiva_
-_} else {_
-    _Instruções caso a condição seja negativa_
-_}_
+if (condição){
+    Instruções caso a condição seja positiva
+} else {
+    Instruções caso a condição seja negativa
+}
 
 🔸Também é possível adicionar else-if caso deseje colocar mais condições, como um sistema de notas que deva retornar se o aluno foi aprovado (IF), se foi para final (ELSE-IF) ou se foi reprovado (ELSE).
 
@@ -25,17 +25,17 @@ _}_
 
 🔸 A estrutura em java é:
 
-_switch (valor){_
-    _case 1:_
-        _Instruções caso o valor seja 1_
-        _break;_
-    _case 2:_
-        _Instruções caso o valor seja 2_
-        _break;_
-    _default:_
-        _Instruções caso o valor não seja nem 1 nem 2_
-        _break;_
-_}_
+switch (valor){
+    case 1:
+        Instruções caso o valor seja 1
+        break;
+    case 2:
+        Instruções caso o valor seja 2
+        break;
+    default:
+        Instruções caso o valor não seja nem 1 nem 2
+        break;
+            }
 
 ## TERNARIOS
 
@@ -43,7 +43,7 @@ _}_
 
 🔸 A estrutura em java é:
 
-_variavel = (condição) ? valor1 : valor2;_
+variavel = (condição) ? valor1 : valor2;
 
 ## REPETIÇÃO
 
@@ -53,9 +53,9 @@ _variavel = (condição) ? valor1 : valor2;_
 
 🔸 A estrutura em java é:
 
-_for (variavel de inicialização; condição de validação; incremento) {_
-    _Instruções que serão executadas até que a condição seja falsa_
-    _}_
+for (variavel de inicialização; condição de validação; incremento) {
+    Instruções que serão executadas até que a condição seja falsa
+    }
 
 🔸Para incrementar basta adicionar ++, para decrementar é --.
 
@@ -67,9 +67,9 @@ _for (variavel de inicialização; condição de validação; incremento) {_
 
 🔸 A estrutura em java é:
 
-_while (condição) {_
-    _Instruções que serão executadas até que a condição seja falsa_
-    _}_
+while (condição) {
+    Instruções que serão executadas até que a condição seja falsa
+    }
 
 ### ✏️ DO-WHILE
 
@@ -79,9 +79,9 @@ _while (condição) {_
 
 🔸 A estrutura em java é:
 
-_do {_
-    _Instruções que serão executadas até que a condição seja falsa_
-    _} while (condição);_
+do {
+    Instruções que serão executadas até que a condição seja falsa
+    } while (condição);
     
 ### Extra: Break e Continue
 
