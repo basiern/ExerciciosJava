@@ -1,26 +1,90 @@
-_Exercícios de estruturas de repetição oferecidos pela dio.me através do github cami-la/loops-e-arrays_
+_Estudos realizados por @basiern através do curso de formaçao de Java oferecido pela Digital Innovation One em conjunto com estudos da disciplina Lógica de Programação na Uninassau._
 
-# EXERCÍCIOS ESTRUTURAS DE REPETIÇÃO
+# ESTUDO SOBRE ESTRUTURAS
+# CONDICIONAIS, TENÁRIOS E REPETIÇÃO
 
-## 📝 WHILE
+## CONDICIONAIS
 
-🔸Nome e Idade: Faça um programa que leia conjuntos de dois valores, o primeiro representando o nome do aluno e o segundo representando a sua idade. (Pare o programa inserindo o valor 0 no campo nome)
+### ✏️ IF-ELSE
 
-🔸Nota: Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+🔸Estrutura condicional simples se-então-senão.
 
-## 📝 DO-WHILE
-🔸Maior e Média: Faça um programa que leia 5 números e informe o maior número e a média desses números.
+🔸 A estrutura em java é: 
 
-🔸Par e Ímpar: Faça um programa que peça N números inteiros. Calcule e mostre a quantidade de números pares e a quantidade de números impares.
+_if (condição){_
+    _Instruções caso a condição seja positiva_
+_} else {_
+    _Instruções caso a condição seja negativa_
+_}_
 
-## 📝 FOR
-🔸Tabuada: Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+🔸Também é possível adicionar else-if caso deseje colocar mais condições, como um sistema de notas que deva retornar se o aluno foi aprovado (IF), se foi para final (ELSE-IF) ou se foi reprovado (ELSE).
 
-Tabuada de 5:
-5 X 1 = 5
-5 X 2 = 10
-...
-5 X 10 = 50
+### ✏️ SWITCH-CASE
 
-🔸Fatorial: Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
-Ex.: 5!=5.4.3.2.1=120
+🔸Já o SWICH-CASE é uma estrutura condicional múltipla escolha. O usuário digita um valor e o programa executa uma ação de acordo com o valor digitado.
+
+🔸 A estrutura em java é:
+
+_switch (valor){_
+    _case 1:_
+        _Instruções caso o valor seja 1_
+        _break;_
+    _case 2:_
+        _Instruções caso o valor seja 2_
+        _break;_
+    _default:_
+        _Instruções caso o valor não seja nem 1 nem 2_
+        _break;_
+_}_
+
+## TERNARIOS
+
+🔸O operador ternário é uma estrutura condicional que permite fazer uma comparação entre dois valores e retornar um terceiro valor, normalmente substitui o IF-ELSE.
+
+🔸 A estrutura em java é:
+
+_variavel = (condição) ? valor1 : valor2;_
+
+## REPETIÇÃO
+
+### ✏️ FOR
+
+🔸O FOR é uma estrutura de repetição com variável de controle, ou seja, o número de repetições é definido previamente.
+
+🔸 A estrutura em java é:
+
+_for (variavel de inicialização; condição de validação; incremento) {_
+    _Instruções que serão executadas até que a condição seja falsa_
+    _}_
+
+🔸Para incrementar basta adicionar ++, para decrementar é --.
+
+### ✏️ WHILE
+
+🔸O WHILE é uma estrutura de repetição com teste lógico no início, ou seja, o número de repetições não é definido previamente.
+
+🔸 Nesse caso, o programa para de executar assim que a condição for falsa (ou nem a executa, se a condição já começar falsa)
+
+🔸 A estrutura em java é:
+
+_while (condição) {_
+    _Instruções que serão executadas até que a condição seja falsa_
+    _}_
+
+### ✏️ DO-WHILE
+
+🔸O DO-WHILE é uma estrutura de repetição com teste lógico no final, ou seja, o número de repetições não é definido previamente.
+
+🔸 Nesse caso, o programa executa pelo menos uma vez, mesmo que a condição seja falsa, considerando que o teste só vem no final.
+
+🔸 A estrutura em java é:
+
+_do {_
+    _Instruções que serão executadas até que a condição seja falsa_
+    _} while (condição);_
+    
+### Extra: Break e Continue
+
+🔸O break é utilizado para interromper a execução de um laço de repetição, ou seja, ele sai do laço e vai para a próxima instrução.
+
+🔸O continue é utilizado para pular uma iteração do laço de repetição, ou seja, ele pula a instrução e vai para a próxima iteração.
